@@ -10,9 +10,9 @@ public:
     int mast;
     Koloda() {};
     Koloda (int a, int b): nominal(a), mast(b) {};
-    friend ostream& operator << (ostream& outputStream, Koloda result)
+    friend ostream& operator << (ostream& out, Koloda result)
     {
-        return outputStream << to_string(result.nominal) + " " +to_string(result.mast);
+        return ou << to_string(result.nominal) + " " +to_string(result.mast);
     }
 };
 int main()

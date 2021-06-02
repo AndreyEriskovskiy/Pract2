@@ -66,6 +66,9 @@ int main()
                 if (name[koloda[i].nominal] == name[8])
                     cout<<i+1 <<" карта"<< endl;
             }
+            for(int i=0; i<kol; i++) {
+                cout<<i+1<<" карта "<<mastcard[koloda[i].mast]<<":"<<name[koloda[i].nominal]<<endl;
+            }
         }
     } while (p!=0);
     return 0;

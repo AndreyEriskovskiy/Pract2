@@ -19,7 +19,7 @@ bool TrialDivision(uint64_t n)
 int main()
 {
     uint64_t n;
-    bool s;;
+    bool s;
     uint64_t arr[3];
     random_device rd;
     mt19937 generator(rd());

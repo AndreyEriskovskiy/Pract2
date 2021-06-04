@@ -22,7 +22,7 @@ int main()
     bool s;
     uint64_t arr[3];
     random_device rd;
-    mt19937 generator(rd());
+    mt19937_64 generator(rd());
     for(int i=0;i<3;i++) {
         s=true;
         while(s) {
